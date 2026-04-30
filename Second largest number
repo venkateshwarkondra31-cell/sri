@@ -1,0 +1,23 @@
+a=int(input("Enter num1: "))
+b=int(input("Enter num2: "))
+c=int(input("Enter num3: "))
+if a>b and a>c:
+    if b>c:
+         print("Second Largest",b)
+        else:
+            print("Second Largest",c)
+        elif b>c:
+            if a>c:
+                print("Second Largest",a)
+        else:
+            print("Second Largest",c)
+        else:
+            if a>b:
+                 print("Second Largest",a)
+        else:
+            print("Second Largest",b)
+Output:
+Enter number:18
+Enter number:17
+Enter number:1
+Second largest:17

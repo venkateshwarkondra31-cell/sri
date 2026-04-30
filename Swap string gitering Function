@@ -1,0 +1,8 @@
+a="Manikanna is Doing Engineering"
+b=a.upper()
+c=a.lower()
+d=a.swapcase()
+f=a.capitalize()
+print()
+
+    

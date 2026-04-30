@@ -1,0 +1,31 @@
+import random
+
+p1 = input("Enter player 1: ")
+p2 = input("Enter player 2: ")
+
+S1 = 10
+S2 = 10
+
+d1 = random.randint(1, 10)
+d2 = random.randint(1, 10)
+
+print(f"--- {p1}'s TURN ---")
+while True:
+    g1 = int(input("Enter ur guess: "))
+    S1 = S1 - 1
+    if g1 == d1:
+        break
+
+print(f"--- {p2}'s TURN ---")
+while True:
+    g2 = int(input("Enter ur guess: "))
+    S2 = S2 - 1
+    if g2 == d2:
+        break
+if S1 > S2:
+    print(f"{p1} wins!")
+elif S2 > S1:
+    print(f"{p2}wins!")
+else:
+    print("Draw")
+    

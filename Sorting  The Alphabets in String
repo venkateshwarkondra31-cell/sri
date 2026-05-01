@@ -1,0 +1,13 @@
+my_word = "venkateshwar"
+letter_list = list(my_word) 
+length = 8 
+for i in range(length):
+    for j in range(0, length - i - 1): 
+        if letter_list[j] > letter_list[j + 1]: 
+            temp = letter_list[j]
+            letter_list[j] = letter_list[j + 1]
+            letter_list[j + 1] = temp
+sorted_word = "" 
+for letter in letter_list:
+    sorted_word = sorted_word + letter 
+print("The sorted string is:", sorted_word)

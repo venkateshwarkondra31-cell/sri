@@ -1,0 +1,12 @@
+num1 = 4
+num2 = 6
+if num1 > num2:
+    greater_number = num1
+else:
+    greater_number = num2
+while True:  
+    if (greater_number % num1 == 0) and (greater_number % num2 == 0):
+        lcm = greater_number
+        break  
+     greater_number = greater_number + 1
+print("The LCM is:", lcm)

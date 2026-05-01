@@ -1,0 +1,7 @@
+for table_number in range(1, 11): 
+    print("Multiplication Table for", table_number)
+    print("----------------------------")
+    for multiplier in range(1, 11):
+        answer = table_number * multiplier
+        print(table_number, "x", multiplier, "=", answer)
+        print("")

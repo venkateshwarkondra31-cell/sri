@@ -1,0 +1,5 @@
+my_text = "Hello Venkateshwar"
+character_count = 0 
+for letter in my_text:
+    character_count = character_count + 1 
+print("Total number of characters:", character_count

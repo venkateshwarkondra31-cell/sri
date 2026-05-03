@@ -1,0 +1,19 @@
+maths=["Venkatesh","Manibalaji","Tharun","Vineeth","Shiva"]
+political=['Venkatesh','Manibalaji','Tharun','Vineeth','Shiva']
+social=['Venkatesh','Manibalaji','Tharun','Vineeth','Shiva']
+
+m=set(maths)
+p=set(political)
+s=set(social)
+
+print(m&p&s)
+#3 subjects
+one=list(m&p&s)
+print(one)
+#2 subjects
+a=(m&p)
+b=(p&s)
+c=(s&m)
+
+two=(a|b|c)-(m&p&s)
+print(list(two))

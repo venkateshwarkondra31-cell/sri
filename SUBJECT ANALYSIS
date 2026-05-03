@@ -1,6 +1,6 @@
-maths=["Venkatesh","Manibalaji","Tharun","Vineeth","Shiva"]
-political=['Venkatesh','Manibalaji','Tharun','Vineeth','Shiva']
-social=['Venkatesh','Manibalaji','Tharun','Vineeth','Shiva']
+maths=["Venkatesh","Shivaprasad","Manibalaji","Tharun","Vineeth"]
+political=['Venkatesh','Shivaprasad','Manibalaji','Tharun','Vineeth']
+social=['Venkatesh','Shivaprasad','Manibalaji','Tharun','Vineeth']
 
 m=set(maths)
 p=set(political)

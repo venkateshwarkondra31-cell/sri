@@ -1,0 +1,37 @@
+country="INDIA"
+class ACE:
+    col="ACE COLLEGE"
+    def set_dime(self,a,b,c,d,e):
+        self.tot=a+b+c+d
+        self.name=e
+    def display(self):
+        print("Marks:",self.tot)
+        print("Name:",self.name)
+        print("college:",ACE.col)
+        print("country:",country)
+
+
+class BVRIT:
+    col="BVRIT"
+    def set_dim(self,a,b,c,d,e):
+        self.total=a+b+c+d
+        self.name=e
+    def show(self):
+        print("Marks:",self.total)
+        print("Name:",self.name)
+        print("college:",BVRIT.col)
+        print("country:",country)
+    
+
+a=ACE()
+a2=ACE()
+b=BVRIT()
+b2=BVRIT()
+a.set_dime(40,50,60,70, "VENKATESH")
+a2.set_dime(60,70,80,90, "VASU")
+b.set_dim(55,65,75,85, "MANI")
+b2.set_dim(85,95,99,55, "SIDDU")
+a.display()
+a2.display()
+b.show()
+b2.show()
